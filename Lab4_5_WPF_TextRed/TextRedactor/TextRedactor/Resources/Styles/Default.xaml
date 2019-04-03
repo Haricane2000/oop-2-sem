@@ -1,0 +1,19 @@
+﻿<ResourceDictionary xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+                    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+                    xmlns:local="clr-namespace:TextRedactor">
+    <Style TargetType="{x:Type Menu}" x:Key="Menu">
+        <Setter Property="Background" Value="#D2F1F4"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+    </Style>
+    <Style TargetType="{x:Type ToolBar}" x:Key="ToolBar">
+        <Setter Property="Background" Value="#D0E5E7"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+    </Style>
+    <Style TargetType="{x:Type ComboBox}" x:Key="ComboBox">
+        <Setter Property="Background" Value="#F2FCFD"/>
+        <Setter Property="FontSize" Value="12"/>
+        <Setter Property="FontFamily" Value="Arial"/>
+    </Style>
+</ResourceDictionary>
